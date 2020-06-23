@@ -245,10 +245,26 @@ ul {
     z-index: 100;
 }
 
+.whatsapp {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+}
+
 .whatsapp-icon {
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 .pl-4 {
     padding-left: 1.5rem !important;
+}
+
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
