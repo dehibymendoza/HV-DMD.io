@@ -20,38 +20,8 @@
 
     <!--Titulo Pestaña HV-->
     <title>HV-Perfil</title>
-    <link rel=" shortcut icon " href="img/48.jpg " type="image/x-icon " />
+    <link rel=" shortcut icon " width="100" href="img/48.jpg " type="image/x-icon " />
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            $('.carousel').carousel({
-                interval: 6000,
-                pause: false,
-            }).carousel('cycle')
-
-
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky");
-
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-
-            // Get the navbar
-            var navbar = document.getElementById("sticky-header");
-
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-
-            // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {
-                myFunction()
-            };
-        })
-    </script>
 
 </head>
 
@@ -69,7 +39,7 @@
                 <li class="blue-page-btn rounded-pill mb-1 p-1 pl-3" data-ssid="servicios"><a href="experiencia.html#experiencia">Experiencia&nbsp;&nbsp;&nbsp;&nbsp;</a><i class="fa fa-circle"></i></li>
                 <li class="blue-page-btn rounded-pill mb-1 p-1 pl-3" data-ssid="nosotros"><a href="estudios.html#estudios">Estudios&nbsp;&nbsp;&nbsp;</a><i class="fa fa-circle"></i></li>
                 <li class="blue-page-btn rounded-pill mb-1 p-1 pl-3" data-ssid="nosotros"><a href="investigacion.html#Investigacion">Investigacion&nbsp;&nbsp;&nbsp;</a><i class="fa fa-circle"></i></li>
-                <li class="blue-page-btn rounded-pill mb-1 p-1 pl-3" data-ssid="desarrollo"><a href="desarrollo.html#desarrollo">Desarrollo&nbsp;&nbsp;&nbsp;</a><i class="fa fa-circle"></i></li>
+                <li class="blue-page-btn rounded-pill mb-1 p-1 pl-3" data-ssid="desarrollo"><a href="blog.html#blog">Blog&nbsp;&nbsp;&nbsp;</a><i class="fa fa-circle"></i></li>
             </ul>
         </div>
 
@@ -83,40 +53,43 @@
                         <i class="fa fa-envelope fa-lg pl-4"></i> &nbsp; dmendoza1925@hotmail.com
                     </li>
                 </ul>
-
-                <div class="navbar-collapse collapse">
-
-                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
-                    <li><a href="#" title="Help Centre"><i class="far fa-life-ring"></i></a></li>
-                    <li><a href="#" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
-                    <li><a href="#" title="Sign Up"><i class="fas fa-edit"></i></a></li>
-
-
-                    <ul class="social-profile">
-                        <li><a href="#"><i class="icon-facebook icon-32 icon-circled"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter icon-32 icon-circled"></i></a></li>
-                        <li><a href="#"><i class="icon-linkedin icon-32 icon-circled"></i></a></li>
-                    </ul>
-                </div>
             </nav>
         </div>
 
-        <div class="cleanco-pad pt-3 pb-3" id="sticky-header">
-            <img class="ml-2" width="80" src="img/44.jpg" alt="">
+        <div class="author">
+            <picture class="manz">
+                <img class="ml-2" width="140" src="img/51.jpg" alt="Manz" loading="lazy">
+            </picture>
+            <div class="social-links" align="center">
+                <div class=""><br>
+                    <h1>DEHIBY MENDOZA DUEÑAS</h1>
+                    <h5> Ingeneiro Electronico, Programador de Software y Full Stack en programación Web, API Rest, CEO de SAM_ELL.COM, Divulgador informático y Tecnologico.</h5>
+
+                    <a class="bt twitter" href="https://twitter.com/manz" title="Perfil de Twitter"><i class="fab fa-twitter"></i> <span>Twitter</span></a>
+                    <a class="bt linkedin" href="https://es.linkedin.com/in/joseromanhdez" title="Perfil de Linkedin"><i class="fab fa-linkedin"></i> <span>Linkedin</span></a>
+                    <a class="bt github" href="https://github.com/dehibymendoza" title="Usuario de GitHub"><i class="fab fa-github"></i> <span>GitHub</span></a>
+                    <a class="bt facebook" href="https://" title="facebook"><i class="fab-facebook"></i> <span>Facebook</span></a>
+                    <a class="bt youtube" href="https://bit.ly/manzdev" title="Canal de YouTube"><i class="fab fa-youtube"></i> <span>YouTube</span></a>
+                </div>
+            </div>
         </div>
 
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/48.jpg " alt="slide">
-
                     <div class="carousel-caption">
-                        <h1 class="hero-title">Perfil Profesional </h1>
-                        <p class="header-subtitle">Profesional en INGENIERIA ELECTRONICA, con 14 años de experiencia laboral en el área de las TIC´s; creativo, con sólida formación en Ciencias Básicas, Humanas, Organizacionales y Tecnológicas; Que me han caracterizo por la actitud
-                            y esfuerzo, tiempo y dedicación de lo propuesto y encomendado; Mediante la consecución de metas a corto, mediano y largo tiempo; Mediante la capacitación, direccionamiento y seguimiento del cumplimiento de logros personales
-                            y profesionales, y con ellos el aprendizaje y desarrollo de habilidades y competencias; Intralaborales y profesionales, en la planeación y liderazgo de soluciones en el direccionamiento de equipos de trabajo y/o proyectos;
-                            para el Desarrollo, Formulación y Evaluación de Proyectos (TIC), con base en la Gestión Empresarial y de la Calidad y del Medio Ambiente, en la Seguridad y Salud en el Trabajo.</p>
+                        <h3 class="hero">PERFIL PROFESIONAL</h3><br>
+                        <p>
+                            Capacitado y aptitud para el Direccionamiento de equipos de Trabajo y/o Investigación, con el manejo de excelentes relaciones Intralaborales, interpersonales e individuales, capacidad para laboral bajo presión, bajo la absolución de Metas, Compromisos
+                            y Retos Propuestos. Involucrando la investigación e innovación de nuevas tecnologías para cualquiera área o tipo de aplicación de las tecnologías de la información y las comunicaciones (TIC), enfocándolas en la automatización
+                            de los procesos Empresariales, Industriales y de la Salud mediante la aplicación tecnología de Software o Hardware; Permitiéndome un excelente manejo de conocimientos técnicos, habilidades y capacidades de adaptabilidad al
+                            entono laboral.
+                        </p>
                         <a id="blue-email-btn" href="experiencia.html#experiencia" class="btn rounded rounded-pill btn-lg active p-3 pb-2 pt-2 pl-5 pr-5" role="button" aria-pressed="true">Siguente</a>
+
+
+
                     </div>
                 </div>
             </div>
@@ -148,16 +121,20 @@
   </audio>
 
     <!--Footer-->
-    <div class="footer-copyright " align=center>
-        <p class="footer-company ">Copyright &copy; 2020 - All Rights Reserved - <a href="# ">ING. DEHIBY MENDOZA DUEÑAS</a> </p>
-        <p class="footer-company "> Diseñada por: <a target="_blank " href="https://# " title="Free Website Templates ">SAM_ELL</a></p>
-    </div>
+    <footer>
+        <div class="footer-copyright " align=center>
+            <p class="footer-company ">Copyright &copy; 2020 - All Rights Reserved - <a href="# ">ING. DEHIBY MENDOZA DUEÑAS</a> </p>
+            <p class="footer-company "> Diseñada por: <a target="_blank " href="https://# " title="Free Website Templates ">SAM_ELL</a></p>
+        </div>
+    </footer>
+
+
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-
+    <script src=js/index.js></script>
 </body>
 
 </html>

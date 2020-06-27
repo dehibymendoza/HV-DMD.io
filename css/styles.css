@@ -12,13 +12,13 @@ html {
     display: flex;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
-    padding: 20px 0;
-    margin: 10px 100;
+    padding: 5px 0;
+    margin: 10px 100px;
 }
 
 .author .manz img,
 .author .manz source {
-    border-radius: 55%;
+    border-radius: 60%;
 }
 
 .author .social-links a {
@@ -31,7 +31,7 @@ html {
 }
 
 img {
-    max-width: 100%;
+    max-width: 200%;
 }
 
 .fab,
