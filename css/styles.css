@@ -246,17 +246,7 @@ a:hover {
 }
 
 
-/* Esto controla la posición del boton de whatsapp abajo a la derecha */
-
-#whatsapp-btn {
-    position: fixed;
-    z-index: 10;
-    top: 90%;
-    left: 95.5%;
-}
-
-
-/* Esto controla la posición de los 3 botones azules  la derecha centrales */
+/* Esto controla la posición de los 3 botones a la derecha centrales */
 
 #side-navigation {
     position: fixed;
@@ -266,7 +256,7 @@ a:hover {
 }
 
 
-/* Esto controla el diseño de esos botonsitos */
+/* Esto controla el diseño de esos botones */
 
 .blue-page-btn {
     background-color: rgb(3, 169, 244);
@@ -278,14 +268,24 @@ a:hover {
 }
 
 
-/* Esto era pa que los botones de arriba azules no tengan como un cirulo a la
+/* Esto es pa que los botones de arriba azules no tengan como un cirulo a la
     izquierda que esta cuelta les aregaba automaticamente */
 
 ul {
     list-style-type: none;
 }
 
-.whatsapp {
+
+/* Esto controla la posición del boton de whatsapp abajo a la derecha */
+
+#whatsapp-btn {
+    position: fixed;
+    z-index: 10;
+    top: 90%;
+    left: 95.5%;
+}
+
+.float {
     position: fixed;
     width: 60px;
     height: 60px;
@@ -296,17 +296,18 @@ ul {
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
-.whatsapp {
-    color: #FFF;
-    text-align: center;
-    font-size: 30px;
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
 }
 
-.whatsapp-icon {
-    margin-top: 13px;
+.my-float {
+    margin-top: 16px;
 }
 
 .pl-4 {
