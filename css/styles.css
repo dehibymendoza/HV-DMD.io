@@ -187,7 +187,7 @@ y lo siga a uno mientras baja. Funciona junto con el script que hay en el index.
 
 .carousel-caption {
     justify-content: center;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     top: 50%;
     color: white;
 }
